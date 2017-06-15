@@ -1,0 +1,8 @@
+#acceuil:
+#  path:     /acceuil
+#  defaults: { _controller: UnicefBundle:Default:index }
+  
+  
+acceuil:
+  path:     /unicef/image/{id}
+  defaults: { _controller: UnicefBundle:Default:index }
